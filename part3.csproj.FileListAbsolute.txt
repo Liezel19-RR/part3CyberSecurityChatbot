@@ -1,0 +1,4 @@
+C:\Users\Student\source\repos\part3\part3\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Student\source\repos\part3\part3\obj\Debug\net8.0-windows\part3_MarkupCompile.cache
+C:\Users\Student\source\repos\part3\part3\obj\Debug\net8.0-windows\part3.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\part3\part3\obj\Debug\net8.0-windows\part3_Content.g.cs
