@@ -1,0 +1,71 @@
+﻿ x:Class="cyber_security_bottttt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cyber_security_bottttt"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"><Grid Margin="20">
+    <StackPanel>
+
+        <TextBlock Text="CYBER SECURITY CHATBOT"
+       Foreground="Lime"
+       FontSize="28"
+       FontWeight="Bold"
+       Margin="0,0,0,20"
+       HorizontalAlignment="Center"/>
+
+        <TextBlock Text="Enter Your Name:"
+       Foreground="Cyan"
+       FontSize="16"/>
+
+        <TextBox Name="txtName"
+     Height="30"
+     FontSize="16"
+     Margin="0,5,0,15" Text="liezel&#xD;&#xA;"/>
+
+        <Button Content="Start Chat"
+    Height="35"
+    Width="150"
+    Click="StartChat_Click"
+    Background="DarkCyan"
+    Foreground="White"/>
+
+        <TextBox Name="ChatBox"
+     Margin="0,20,0,10"
+     Height="220"
+     FontSize="15"
+     TextWrapping="Wrap"
+     VerticalScrollBarVisibility="Auto"
+     AcceptsReturn="True"
+     IsReadOnly="True"
+     Background="#111"
+     Foreground="White"/>
+
+        <ComboBox Name="MenuBox"
+      Height="35"
+      FontSize="15">
+
+            <ComboBoxItem Content="How are you"/>
+            <ComboBoxItem Content="Purpose"/>
+            <ComboBoxItem Content="Topics"/>
+            <ComboBoxItem Content="Password Safety"/>
+            <ComboBoxItem Content="Phishing"/>
+            <ComboBoxItem Content="Safe Browsing"/>
+            <ComboBoxItem Content="Exit"/>
+
+        </ComboBox>
+
+        <Button Content="Ask Bot"
+    Height="35"
+    Width="150"
+    Margin="0,15,0,0"
+    Click="AskBot_Click"
+    Background="Green"
+    Foreground="White"/>
+
+    </StackPanel>
+
+
+</Grid>
+</Window>
